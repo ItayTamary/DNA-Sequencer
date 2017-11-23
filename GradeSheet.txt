@@ -1,0 +1,64 @@
+Rubric for proj3
+Student: itay1
+-------------------------------------------------------------------------------
+
+Part 1: Sequencer (18 points):
+##############################
+2/2 stores command line argument in m_filename
+10/10 loads file and stores data in dynamically allocated nodes
+2/2 numAmino calls two amino acids
+4/4 main menu works correctly (exit included)
+
+--------------------------------------------------------------------------------
+
+Part 2: Display (1) and (2) (10 Points)
+##############################
+### Test using make run1, make run2, make run3, or make run4
+5/5 Display(1) prints correctly (with formatting)
+### including number of nucleotides and number of trinucleotides (accurate)
+5/5 Display(2) prints correctly with complement (with formatting)
+### including number of nucleotides and number of trinucleotides (accurate)
+
+--------------------------------------------------------------------------------
+
+Part 3: numAmino and Sequence (16 points)
+#############################
+### Test using make run1, make run2, make run3, or make run4
+8/8  prints correct count of two amino acids (Tryptophan and Phenylalanine)
+### Could test any amino acids
+8/8 prints all amino acids including correct count of total amino acids identified
+
+--------------------------------------------------------------------------------
+
+Part 4: Test Cases (20 points)
+#############################
+10/10 test1 - run "make test1"
+#####       (15 nucleotides, 5 trinucleotides, 1 tryptophan, 1 phenylalanine)
+#####       (Lysine, Aspartic Acid, Arginine, Tryptophan)
+10/10 test2 - run "make test2"
+#####       (75,000 nucleotides, 25,000 trinucleotides, 395 trytophan, 402 pheny)
+#####       (The last amino acid which is number 25,000 = Serine)
+
+--------------------------------------------------------------------------------
+
+Part 5: Memory Leaks (8 points)
+############################
+8/8 --  has no memory leaks
+####    Enter "valgrind ./proj3 proj3_test1.csv" then 1, 2, 3, 4, 5
+####    see if there are any leaks
+
+--------------------------------------------------------------------------------
+
+Part 6: Following overall guidelines (8 points):
+#########################################
+4/4 -- commenting (function headers, etc.)
+4/4 -- other coding standards
+
+--------------------------------------------------------------------------------
+
+Comments:
+##############################
+Great Job!
+
+
+TOTAL: 80.0/80.0
